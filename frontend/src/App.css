@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* style our homepage starts */
+.App {
+  min-height: 100vh;
+  display: flex;
+  /* background-image: url(./background_images/grad6.jpg);
+  background-repeat: repeat-x;
+  background-size: contain; */
+
+  background-image: url(./background_images/darkGreen.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+  /* color: white;
+   */
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* style our homepage endss */
